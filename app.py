@@ -1,7 +1,5 @@
 from flask import Flask
 
-# Airbase API token: patFpWNV63Ls1yb0y.8b397c78ea81e0f70c0e3ad45d1dddec71e9d8c2efcc7290a59f630f29ec2042
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -23,7 +21,7 @@ def course_selection_advice():
 @app.route('/additional_resources')
 def additional_resources():
     return "here is where you can get additional resources"
-    
+
 
 
 
